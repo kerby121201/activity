@@ -1,89 +1,53 @@
-/* Reset default spacing */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+/* styles.css */
 
-/* Body */
+/* FIX 1: Added missing { */
 body {
     font-family: Arial, sans-serif;
-    background-color: #dcdcdc;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    overflow-x: hidden;
 }
 
-/* Header */
+/* FIX 2: corrected "heade" to "header" */
 header {
     background-color: #333;
-    color: white;
-    text-align: center;
+    color: #fff;
     padding: 20px;
-}
-
-/* Navigation */
-nav {
-    background-color: #444;
-    padding: 10px 0;
+    text-align: center;
 }
 
 nav ul {
-    list-style: none;
-    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 nav ul li {
-    display: inline-block;
-    margin: 0 15px;
+    display: inline;
 }
 
 nav ul li a {
     text-decoration: none;
-    color: white;
-    font-weight: bold;
-}
-
-/* Main content */
-main {
-    padding: 30px;
-}
-
-section {
-    margin-bottom: 30px;
-}
-
-h2 {
-    margin-bottom: 10px;
-}
-
-/* Form styling */
-form {
-    display: flex;
-    flex-direction: column;
-    max-width: 400px;
-}
-
-form input,
-form textarea {
-    margin-bottom: 10px;
-    padding: 8px;
-    border: 1px solid #aaa;
-}
-
-form button {
-    background-color: #333;
-    color: white;
-    padding: 8px;
-    border: none;
-    cursor: pointer;
-}
-
-form button:hover {
-    background-color: #555;
-}
-
-/* Footer */
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
+    color: #333;
     padding: 10px;
+}
+
+/* FIX 3: added missing } */
+main section {
+    margin: 20px;
+}
+
+/* FIX 4: added missing ; after bottom: 0 */
+/* FIX 5: corrected text-align syntax */
+
+footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100vw;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
 }

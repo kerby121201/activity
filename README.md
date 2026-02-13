@@ -6,7 +6,7 @@
 
 - Removed inline style attribute from the ul element
 - Added missing closing </a> tag in the About link
-- Closed the unclosed '<h2>' tag in the About Us section
+- Closed the unclosed heading tag in the About Us section
 - Added missing closing </form> tag
 - Corrected stylesheet link to match styles.css
 

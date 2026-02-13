@@ -1,6 +1,5 @@
 /* styles.css */
 
-/* FIX 1: Added missing { */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -9,7 +8,6 @@ body {
     overflow-x: hidden;
 }
 
-/* FIX 2: corrected "heade" to "header" */
 header {
     background-color: #333;
     color: #fff;
@@ -33,13 +31,9 @@ nav ul li a {
     padding: 10px;
 }
 
-/* FIX 3: added missing } */
 main section {
     margin: 20px;
 }
-
-/* FIX 4: added missing ; after bottom: 0 */
-/* FIX 5: corrected text-align syntax */
 
 footer {
     position: absolute;

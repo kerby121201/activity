@@ -4,10 +4,10 @@
 
 ### HTML Fixes
 
-- Removed inline style attribute from the ul element
-- Added missing closing </a> tag in the About link
-- Closed the unclosed heading tag in the About Us section
-- Added missing closing </form> tag
+- Removed inline style attribute from the unordered list element
+- Added missing closing anchor tag in the About link
+- Closed the unclosed heading level 2 tag in the About Us section
+- Added missing closing form tag
 - Corrected stylesheet link to match styles.css
 
 ### CSS Fixes

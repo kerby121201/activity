@@ -1,45 +1,95 @@
-body {
-    font-family: Arial, sans-serif;
+/* Reset some default spacing */
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
     background-color: #dcdcdc;
 }
 
+/* Header */
 header {
     background-color: #333;
     color: white;
+    text-align: center;
     padding: 20px;
+}
+
+/* Navigation */
+nav {
+    background-color: #444;
+    padding: 10px 0;
     text-align: center;
 }
 
-nav {
-    padding: 10px;
-}
-
 nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+    list-style: none;
 }
 
 nav ul li {
-    display: inline;
-    margin-right: 15px;
+    display: inline-block;
+    margin: 0 15px;
 }
 
 nav ul li a {
+    color: white;
     text-decoration: none;
-    color: black;
+    font-weight: bold;
 }
 
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content */
 main {
-    padding: 20px;
+    padding: 30px;
 }
 
-main section {
-    margin-bottom: 20px;
+section {
+    margin-bottom: 30px;
 }
 
+h2 {
+    margin-bottom: 10px;
+}
+
+/* Services list */
+.services {
+    margin-left: 20px;
+}
+
+/* Form */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+form input,
+form textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #aaa;
+}
+
+form button {
+    padding: 8px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+/* Footer */
 footer {
     background-color: #333;
     color: white;
